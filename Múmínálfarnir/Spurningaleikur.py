@@ -30,6 +30,8 @@ class Question(Messages,GamePlay):
     def __init__(self):
         pass
     
+    def __del__(self):
+        pass
     
     def gameIntro(self):
 
