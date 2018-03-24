@@ -33,8 +33,10 @@ class Morrinn(Messages, GamePlay):
 
     def __init__(self):
         pass
-
-
+    
+    def __del__(self):
+        pass
+    
     #Upphafsskjar
     def gameIntro(self):
         
